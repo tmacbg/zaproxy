@@ -1,6 +1,6 @@
 # This dockerfile builds the zap stable release
 FROM ubuntu:20.04
-LABEL maintainer="psiinon@gmail.com"
+LABEL maintainer="nnedelchev@hotmail.com"
 
 ARG DEBIAN_FRONTEND=noninteractive
 
@@ -86,3 +86,4 @@ RUN chown zap:zap /zap/* && \
 USER zap
 
 HEALTHCHECK --retries=5 --interval=5s CMD zap-cli status
+
