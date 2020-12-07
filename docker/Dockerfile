@@ -1,6 +1,6 @@
 # This dockerfile builds the zap stable release
 FROM ubuntu:20.04
-LABEL maintainer="nnedelchev@hotmail.com"
+LABEL maintainer="Nikolay Nedelchev Endava Task nnedelchev@hotmail.com"
 
 ARG DEBIAN_FRONTEND=noninteractive
 
