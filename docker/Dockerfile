@@ -34,7 +34,6 @@ RUN mkdir /zap && chown zap:zap /zap
 
 WORKDIR /zap
 
-#Change to the zap user so things get done as the right person (apart from copy)
 USER zap
 
 RUN mkdir /home/zap/.vnc
